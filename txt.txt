@@ -1,0 +1,110 @@
+<html>
+
+<h2 class="happy">Happy cate</h2>
+
+<h2 class="angry">Angry cate</h2>
+
+<h2 class="sad">Sad cate</h2>
+
+<h4 class="happy">I am a happy cate, I don't care if you like or don't like</h4>
+
+<h4 class="angry">I am an agry cate, if you don't give me a like I will scratch you</h4>
+
+
+
+<h4 class="sad">I am a sad cate, if you have a heart give me a like</h4>
+
+
+
+
+<div id="catur"><h2 class="happy">Happy cate</h2><img id="catur-pic" src="pics/PIC3.gif" >
+  <h4 class="happy">I am a happy cate, I don't care if you like or don't like</h4>
+
+</div>
+
+
+<script>
+
+$(document).ready(function() {
+            $(".span1").click(function () {
+                $(".span1").css({
+                    
+
+
+                    color: "blue"
+                    
+                });
+
+
+                
+            });
+
+            
+        });
+
+
+
+        $(document).ready(function() {
+            $(".span3").click(function () {
+                $(".span3").css({
+                    
+
+
+                    color: "red"
+                    
+                });
+
+
+                
+            });
+
+            
+        });
+
+
+  
+        $(document).ready(function(){
+  $("#thub-dow2").dblclick(function(){
+    $(".span3").css({
+                    
+
+
+                    color: "#212529"
+                    
+                });
+  });
+
+
+
+  
+  
+});
+
+
+$(document).ready(function(){
+  $("#thub-up2").dblclick(function(){
+    $(".span1").css({
+                    
+
+
+                    color: "#212529"
+                    
+                });
+  });
+
+
+
+
+
+
+  
+  
+  
+});
+
+
+
+</script>
+
+
+</html>
